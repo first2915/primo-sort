@@ -1,10 +1,8 @@
 /**
- * Merge three sorted collections into ascending order without using sort().
  * - collection_1: sorted DESC (max -> min)
  * - collection_2: sorted ASC (min -> max)
  * - collection_3: sorted ASC (min -> max)
  * Returns: new array sorted ASC.
- * Time complexity O(n), space O(1) extra (excluding output).
  */
 export function merge(collection_1: number[], collection_2: number[], collection_3: number[]): number[] {
   const result: number[] = [];
